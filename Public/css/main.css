@@ -1,0 +1,397 @@
+@CHARSET "UTF-8";
+*{margin:0px;padding:0px;}
+
+body {
+    background-color: #e9e9e9;
+    color: #333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+}
+a {
+    color: #51688a;
+    text-decoration: none;
+}
+/**导航**/
+.navbar-inverse {
+	background: none repeat scroll 0 0 #fff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+	position: fixed;
+	border-color: #fff;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: #d6d3ce;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+    color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    background-color: #d6d3ce;
+    color: #fff;
+}
+/**手机按钮**/
+.navbar-inverse .navbar-toggle {
+    border-color: #d6d3ce;
+}
+.navbar-toggle {
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    float: right;
+    margin-bottom: 8px;
+    margin-right: 15px;
+    margin-top: 8px;
+    padding: 9px 10px;
+    position: relative;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #9d9d9d;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: #d6d3ce;
+}
+/**首页列表**/
+.list {
+	margin-bottom: 20px;
+}
+.contents {
+	padding: 10px 11px;
+	background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+    display: block;
+    line-height: 1.42857;
+    transition: border 0.2s ease-in-out 0s;
+}
+.list >.contents >.thumbnail-1 {
+    background-color: #fff;
+    text-align : center;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+    height: 410px;
+    overflow: hidden;
+    position: relative;
+}
+.thumbnail-1 > a > img
+{
+	height:100%;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* 针对 IE8 以及更早的版本 */
+}
+.thumbnail-1 > a > img:hover
+{
+	opacity:0.9;
+	filter:alpha(opacity=90); /* 针对 IE8 以及更早的版本 */
+}
+
+.contents-title {
+	color: #333;
+    line-height: 17px;
+    word-wrap: break-word;
+}
+.contents-company > span > a{
+	color: #b7b7b7;
+	font-size:14px;
+	display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.contents-describe {
+	color: #b7b7b7;
+	font-size:13px;
+	display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/**底部样式**/
+.bs-docs-footer {
+	padding-top: 40px;
+	#padding-bottom: 40px;
+	margin-top: 60px;
+	color: #b7b7b7;
+	text-align: center;
+	border-top: 1px solid #e5e5e5
+}
+
+.bs-docs-footer-links {
+	padding-left: 0;
+	margin-top: 20px;
+	color: #999
+}
+
+.bs-docs-footer-links li {
+	display: inline;
+	padding: 0 2px
+}
+
+.bs-docs-footer-links li:first-child {
+	padding-left: 0
+}
+/**搜索页**/
+.nav-login {
+	list-style: outside none none;
+    padding-left: 0;
+}
+
+.nav-login > li {
+    float: right;
+    display: block;
+    position: relative;
+}
+.nav-login > li > a {
+	color : #9d9d9d;
+    line-height: 20px;
+    padding: 15px 5px;
+    position: relative;
+}
+.nav-login > li > a:hover,.nav-login > li > a:focus {
+    background-color: #9d9d9d;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+    color: #fff;
+}
+
+.list > .contents > .thumbnail-2 {
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+    height: 205px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    padding-left: 0px;
+    witch:100%;
+}
+.thumbnail-2 > a > img {
+    height: 100%;
+    opacity: 0.8;
+}
+.thumbnail-2 > a > img:hover {
+    opacity: 0.9;
+}
+
+ .search-jumbotron {
+ 	padding:0px; 
+ 	background-color: #e9e9e9;
+}
+.search-jumbotron .row {
+	padding:70px 0 0;
+}
+.search {
+	padding-right: 0px;
+	padding-left: 30px;
+}
+.search-title {
+	font-family:Microsoft YaHei;
+	color:#009900;
+}
+.search-list-tab {
+	 background: none repeat scroll 0 0 #fff;
+	 border-radius: 6px;
+	 box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.22);
+	 margin-bottom: 20px;
+	 margin-left: 15px;
+	 margin-right:15px;
+}
+.search-list-tab-1 {
+	 padding: 10px 10px;
+	 font-size:16px;
+	 color: #9d9d9d;
+}
+.search-list-tab-2 {
+	 padding: 10px 5px;
+}
+.right-sidebar {
+	background: none repeat scroll 0 0 #fff;
+	border-radius: 6px 6px 0 0;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.22);
+	margin-bottom: 20px;
+	margin-left: 15px;
+	margin-right:15px;
+	padding:0px 0px 5px 0px;
+}
+.right-sidebar-title {
+	padding: 8px 15px;
+	border-bottom: 1px solid #e9e9e9;
+}
+.right-sidebar-key {
+	 padding: 10px 10px 15px 15px;
+	 background: none repeat scroll 0 0 #fff;
+}
+.right-sidebar-key> a{
+	text-decoration: none;
+}
+.right-sidebar-key> a > span:hover {
+	background: none repeat scroll 0 0 #d6d3ce;
+}
+.right-sidebar-key > a > span {
+	color: #9d9d9d;
+}
+.right-sidebar-key > div {
+	float:left;margin:0px 10px 10px 0;height:70px;width:70px;background: none repeat scroll 0 0 #fff;border-radius: 6px 6px 0 0;box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.22);
+}
+.right-sidebar-key > div > a > img
+{
+	opacity:0.8;
+	filter:alpha(opacity=80); /* 针对 IE8 以及更早的版本 */
+}
+.right-sidebar-key > div > a > img:hover
+{
+	opacity:0.9;
+	filter:alpha(opacity=90); /* 针对 IE8 以及更早的版本 */
+}
+.search-comment-title{
+	margin: 5px 0 0 15px;
+}
+.search-comment-title > span > a{
+	font-size: 13px;
+}
+
+.search-comment-content {
+    color: #b7b7b7;
+    display: block;
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 2px 0 0 15px;
+}
+.search-comment-user{
+    margin: 0 0 0 15px;
+    padding:0 0 5px 0;
+}
+.search-comment-user{
+   color: #b7b7b7;
+    font-size: 12px;
+    
+}
+.search-comment-user > a{
+   color: #b7b7b7;
+    font-size: 14px;
+}
+/**产品详细**/
+.thumbnail-3 {
+    height: 410px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    padding-left: 0px;
+    width:100%;
+}
+.product-detail {
+	background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+    margin-left: 0px;
+    margin-right:0px;
+    border-radius: 6px;
+}
+.prodcut-photo {
+    display: block;
+    line-height: 1.42857;
+    padding: 10px 0px;
+    transition: border 0.2s ease-in-out 0s;
+}
+.prodcut-title {
+	color: #333;
+    line-height: 17px;
+    word-wrap: break-word;
+}
+
+.product-params {
+	display:inline-block;
+	padding:0px 10px 0 3px;
+	width: 55px;
+	text-align:justify;
+    text-justify:distribute-all-lines;/*ie6-8*/
+    text-align-last:justify;/* ie9*/
+    -moz-text-align-last:justify;/*ff*/
+    -webkit-text-align-last:justify;/*chrome 20+*/
+}
+.prodcut-company > a{
+	color: #b7b7b7;
+	font-size:14px;
+    overflow: hidden;   
+}
+.prodcut-describe {
+	color: #b7b7b7;
+	font-size:13px;
+	display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.product-review {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 6px 6px 0 0;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.22);
+    margin-bottom: 20px;
+    padding: 0 0 5px;
+}
+.product-review-tab {
+	
+    overflow: hidden;
+     border-bottom: 1px solid #e9e9e9;
+    padding: 8px 15px;
+}
+.product-review-tab > a {
+	color: #9d9d9d;
+    font-size: 14px;
+    padding:8px 15px;
+}
+.product-review-tab > a:hover {
+	background-color: #d6d3ce;
+	color: #fff;
+}
+.action {
+	background-color: #d6d3ce;
+	color: #fff;
+}
+.company-sidebar-key {
+	padding:0px 15px
+}
+.company-name {
+	color: #9d9d9d;
+    font-size: 16px;
+    margin: 0;
+}
+.company-address {
+	color: #b7b7b7;
+    font-size: 14px;
+    overflow: hidden;
+    margin:2px 0 5px 0;
+}
+.company-comment {
+	color: #b7b7b7;
+    font-size: 13px;
+    overflow: hidden;
+    margin:2px 0 2px 5px;
+}
+/**个人中心**/
+.ucenter-bar {
+	background: none repeat scroll 0 0 #fff;
+    border-radius: 6px 6px 0 0;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.22);
+}
+.ucenter-bar > li > a{
+	background: none repeat scroll 0 0 #eee;
+}
+.ucenter-bar-two {
+	padding : 0px 15px;
+}
+.ucenter-content{
+	width : 100%;
+	/** : 600px;**/
+	background: none repeat scroll 0 0 #fff;
+    border-radius: 6px 6px 0 0;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.22);
+    text-align: center;
+    padding:30px 0 20px 20px;
+}
+
+/**用户中心-产品列表**/
+.table > thead > tr > th {
+	color: #777;
+	font-weight: lighter ;
+}
