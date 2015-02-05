@@ -1104,6 +1104,9 @@ class Model {
             'integer'   =>  '/^[-\+]?\d+$/',
             'double'    =>  '/^[-\+]?\d+(\.\d+)?$/',
             'english'   =>  '/^[A-Za-z]+$/',
+        	'tel'	=> '/^\d{3}-\d{8}|\d{4}(-\d{7})?+$/',
+        	'phone'	=> '/^\d{13}+$/',
+        	'contact'	=> '/^[(\d{3}-\d{8}|\d{4}(-\d{7})?)|\d{11}]+$/',
         );
         // 检查是否有内置的正则表达式
         if(isset($validate[strtolower($rule)]))

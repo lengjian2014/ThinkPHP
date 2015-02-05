@@ -8,6 +8,12 @@ body {
     font-size: 14px;
     line-height: 1.42857;
 }
+label {
+    display: inline-block;
+    font-weight: lighter;
+    margin-bottom: 5px;
+    max-width: 100%;
+}
 a {
     color: #51688a;
     text-decoration: none;
@@ -387,9 +393,25 @@ a {
     border-radius: 6px 6px 0 0;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.22);
     text-align: center;
-    padding:30px 0 20px 20px;
+    padding:30px 0 20px 30px;
 }
 
+/**会员中心-店铺设置**/
+
+.form-horizontal > .form-group > .form-label {
+    margin-bottom: 0;
+    padding-top: 7px;
+    text-align: right;
+    font-weight: 0;
+}
+.help-block {
+    color: #9d9d9d;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    float:left;
+    font-size: 12px;
+}
 /**用户中心-产品列表**/
 .table > thead > tr > th {
 	color: #777;

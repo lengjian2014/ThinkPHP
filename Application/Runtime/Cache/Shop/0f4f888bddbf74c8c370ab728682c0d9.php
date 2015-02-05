@@ -50,10 +50,17 @@
 	    <div class="row">
 			<div class="col-md-2" style="padding-left: 30px;padding-right: 0;">
 				<ul class="nav ucenter-bar" style="height:300px">
+	<li><a href="#shop"><span class="glyphicon glyphicon-shopping-cart">店铺管理</span></a>
+		 <ul class="nav ucenter-bar-two">
+			<li><a href="index"><span class="glyphicon glyphicon-shopping-cart">我的店铺</span></a></li>
+			<li><a href="create"><span class="glyphicon glyphicon-shopping-cart">店铺设置</span></a></li>
+			<li><a href="create"><span class="glyphicon glyphicon-shopping-cart">认证设置</span></a></li>
+		  </ul>
+	</li>	
 	<li><a href="#shop"><span class="glyphicon glyphicon-shopping-cart">商品管理</span></a>
 		 <ul class="nav ucenter-bar-two">
-			<li><a href="index"><span class="glyphicon glyphicon-shopping-cart">商品列表</span></a></li>
-			<li><a href="create"><span class="glyphicon glyphicon-shopping-cart">新增商品</span></a></li>
+			<li><a href="/shop/goods/index"><span class="glyphicon glyphicon-shopping-cart">商品列表</span></a></li>
+			<li><a href="/shop/goods/create"><span class="glyphicon glyphicon-shopping-cart">新增商品</span></a></li>
 		  </ul>
 	</li>	
 </ul>

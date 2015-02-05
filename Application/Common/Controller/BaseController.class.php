@@ -13,6 +13,7 @@ class BaseController extends Controller
 	      if (!$uid) {
 	            $this->error('需要登录', "/index/login");
 	      }
+	      C("uid",$uid);
 	      $this->assign('uid', $uid);
 	      $this->mid = is_login();
     }

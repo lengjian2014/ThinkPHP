@@ -1,0 +1,3 @@
+<?php
+//000000086400a:7:{i:0;a:3:{s:7:"type_id";s:1:"1";s:9:"type_name";s:9:"种植业";s:9:"type_sort";s:1:"1";}i:1;a:3:{s:7:"type_id";s:1:"7";s:9:"type_name";s:12:"农资产品";s:9:"type_sort";s:1:"1";}i:2;a:3:{s:7:"type_id";s:1:"3";s:9:"type_name";s:9:"养殖业";s:9:"type_sort";s:1:"2";}i:3;a:3:{s:7:"type_id";s:1:"6";s:9:"type_name";s:17:"酒/饮料/蜂蜜";s:9:"type_sort";s:1:"3";}i:4;a:3:{s:7:"type_id";s:1:"2";s:9:"type_name";s:12:"休闲食品";s:9:"type_sort";s:1:"4";}i:5;a:3:{s:7:"type_id";s:1:"5";s:9:"type_name";s:12:"加工制品";s:9:"type_sort";s:1:"5";}i:6;a:3:{s:7:"type_id";s:1:"8";s:9:"type_name";s:9:"食用油";s:9:"type_sort";s:1:"6";}}
+?>
