@@ -49,14 +49,20 @@
 	<div class="container">
 	    <div class="row">
 			<div class="col-md-2" style="padding-left: 30px;padding-right: 0;">
-				<ul class="nav ucenter-bar" style="height:300px">
+				<ul class="nav ucenter-bar" style="height:500px">
 	<li><a href="#shop"><span class="glyphicon glyphicon-shopping-cart">店铺管理</span></a>
 		 <ul class="nav ucenter-bar-two">
 			<li><a href="index"><span class="glyphicon glyphicon-shopping-cart">我的店铺</span></a></li>
 			<li><a href="create"><span class="glyphicon glyphicon-shopping-cart">店铺设置</span></a></li>
 			<li><a href="create"><span class="glyphicon glyphicon-shopping-cart">认证设置</span></a></li>
 		  </ul>
-	</li>	
+	</li>
+	<li><a href="#shop"><span class="glyphicon glyphicon-shopping-cart">我的记录</span></a>
+		 <ul class="nav ucenter-bar-two">
+			<li><a href="/shop/record/index"><span class="glyphicon glyphicon-shopping-cart">记录列表</span></a></li>
+			<li><a href="/shop/record/create"><span class="glyphicon glyphicon-shopping-cart">新增记录</span></a></li>
+		  </ul>
+	</li>
 	<li><a href="#shop"><span class="glyphicon glyphicon-shopping-cart">商品管理</span></a>
 		 <ul class="nav ucenter-bar-two">
 			<li><a href="/shop/goods/index"><span class="glyphicon glyphicon-shopping-cart">商品列表</span></a></li>
@@ -66,45 +72,48 @@
 </ul>
 			</div>
 			<div class="col-md-10">
-				<div class="container-fluid">
-	<ol class="breadcrumb" style="background-color: #fff;">
-		<li><a href="#">我的店铺</a></li>
-		<li><a href="#">店铺管理</a></li>
-		<li class="active">店铺设置</li>
-	</ol>
-	<div class="ucenter-content">
-		<form class="form-horizontal" role="form" method="post">
-			<div class="form-group">
-				<label class="col-sm-2 form-label">店铺名称</label>
-				<div class="col-sm-6">
-					<input class="form-control" id="disabledInput" type="text" value="" name="store_name">
-				</div>
-				</div>
-				<div class="form-group">
-					<label class="col-sm-2 form-label">主营类型</label>
-					<div class="col-sm-6">
-						<select multiple class="form-control" name="gc_id">
-							<?php echo ($goodstype); ?>
-						</select>
-					</div>
-				</div>
-				<div class="form-group">
-					<label class="col-sm-2 form-label">店铺标志</label>
-					<div class="col-sm-6">
-						<input type="file" id="exampleInputFile" name="store_logo">
-						<p class="help-block">Example block-level help text here.</p>
-					</div>
-				</div>
+							<div class="container-fluid">
+					<ol class="breadcrumb" style="background-color: #fff;">
+					  <li><a href="#">我的店铺</a></li>
+					  <li><a href="#">店铺管理</a></li>
+					  <li class="active">店铺设置</li>
+					</ol>
+					<div class="ucenter-content">
+						<form class="form-horizontal" role="form">
+						   <div class="form-group">
+						      <label class="col-sm-2 form-label">店铺名称</label>
+						      <div class="col-sm-6">
+						         <input class="form-control" id="disabledInput" type="text" value="">
+						      </div>
+						   </div>
+						    <div class="form-group">
+						      <label class="col-sm-2 form-label">主营类型</label>
+						      <div class="col-sm-6">
+						         <select multiple class="form-control">
+								  <option>种植业</option>
+								  <option>养殖业</option>
+								  <option>食品加工</option>
+								  <option>其他</option>
+								</select>
+						      </div>
+						   </div>
+						   <div class="form-group">
+							    <label class="col-sm-2 form-label">店铺标志</label>
+							    <div class="col-sm-6">
+							   	 	<input type="file" id="exampleInputFile">
+							    	<p class="help-block">Example block-level help text here.</p>
+							    </div>
+							 </div>
 						   <div class="form-group">
 						      <label for="inputPassword" class="col-sm-2 form-label">所在地</label>
 						      <div class="col-sm-6">
-						         <input class="form-control" id="disabledInput" type="text" value="" name="area_id">
+						         <input class="form-control" id="disabledInput" type="text" value="">
 						      </div>
 						   </div>
 						   <div class="form-group">
 						      <label for="inputPassword" class="col-sm-2 form-label">详细地址</label>
 						      <div class="col-sm-6">
-						         <input class="form-control" id="disabledInput" type="text" value="" name="store_address">
+						         <input class="form-control" id="disabledInput" type="text" value="">
 						         <p class="help-block">重复地区可不填写.</p>
 						      </div>
 						   </div>
@@ -113,15 +122,7 @@
 						         联系电话
 						      </label>
 						      <div class="col-sm-6">
-						         <input type="text" class="form-control" id="inputSuccess" value="" name="store_tel">
-						      </div>
-						   </div>
-						   <div class="form-group">
-						      <label class="col-sm-2 form-label">
-						         邮政编码
-						      </label>
-						      <div class="col-sm-6">
-						         <input type="text" class="form-control" id="inputSuccess" value="" name="store_zip">
+						         <input type="text" class="form-control" id="inputSuccess" value="">
 						      </div>
 						   </div>
 						   <div class="form-group">
@@ -129,7 +130,7 @@
 						         QQ
 						      </label>
 						      <div class="col-sm-6">
-						         <input type="text" class="form-control" id="inputSuccess" value="" name="store_qq">
+						         <input type="text" class="form-control" id="inputSuccess" value="">
 						      </div>
 						   </div>
 						   <div class="form-group">
@@ -137,13 +138,13 @@
 						         店铺简介
 						      </label>
 						      <div class="col-sm-6">
-						         <textarea class="form-control" rows="3" name="description"></textarea>
+						         <textarea class="form-control" rows="3"></textarea>
 						      </div>
 						   </div>
 						   <div class="form-group">
 						      <label for="inputPassword" class="col-sm-2 form-label">SEO关键字</label>
 						      <div class="col-sm-6">
-						         <input class="form-control" id="disabledInput" type="text" value="" name="store_keywords">
+						         <input class="form-control" id="disabledInput" type="text" value="">
 						         <p class="help-block">用于店铺搜索引擎的优化，关键字之间请用英文逗号分隔.</p>
 						      </div>
 						   </div>
@@ -152,7 +153,7 @@
 						         SEO店铺描述
 						      </label>
 						      <div class="col-sm-6">
-						         <textarea class="form-control" rows="3" name="store_description"></textarea>
+						         <textarea class="form-control" rows="3"></textarea>
 						      </div>
 						   </div>
 						   <div class="form-group">

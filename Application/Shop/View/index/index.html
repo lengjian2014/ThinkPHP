@@ -1,42 +1,45 @@
-<div class="container-fluid">
-	<ol class="breadcrumb" style="background-color: #fff;">
-		<li><a href="#">我的店铺</a></li>
-		<li><a href="#">店铺管理</a></li>
-		<li class="active">店铺设置</li>
-	</ol>
-	<div class="ucenter-content">
-		<form class="form-horizontal" role="form" method="post">
-			<div class="form-group">
-				<label class="col-sm-2 form-label">店铺名称</label>
-				<div class="col-sm-6">
-					<input class="form-control" id="disabledInput" type="text" value="" name="store_name">
-				</div>
-				</div>
-				<div class="form-group">
-					<label class="col-sm-2 form-label">主营类型</label>
-					<div class="col-sm-6">
-						<select multiple class="form-control" name="gc_id">
-							{$goodstype}
-						</select>
-					</div>
-				</div>
-				<div class="form-group">
-					<label class="col-sm-2 form-label">店铺标志</label>
-					<div class="col-sm-6">
-						<input type="file" id="exampleInputFile" name="store_logo">
-						<p class="help-block">Example block-level help text here.</p>
-					</div>
-				</div>
+			<div class="container-fluid">
+					<ol class="breadcrumb" style="background-color: #fff;">
+					  <li><a href="#">我的店铺</a></li>
+					  <li><a href="#">店铺管理</a></li>
+					  <li class="active">店铺设置</li>
+					</ol>
+					<div class="ucenter-content">
+						<form class="form-horizontal" role="form">
+						   <div class="form-group">
+						      <label class="col-sm-2 form-label">店铺名称</label>
+						      <div class="col-sm-6">
+						         <input class="form-control" id="disabledInput" type="text" value="">
+						      </div>
+						   </div>
+						    <div class="form-group">
+						      <label class="col-sm-2 form-label">主营类型</label>
+						      <div class="col-sm-6">
+						         <select multiple class="form-control">
+								  <option>种植业</option>
+								  <option>养殖业</option>
+								  <option>食品加工</option>
+								  <option>其他</option>
+								</select>
+						      </div>
+						   </div>
+						   <div class="form-group">
+							    <label class="col-sm-2 form-label">店铺标志</label>
+							    <div class="col-sm-6">
+							   	 	<input type="file" id="exampleInputFile">
+							    	<p class="help-block">Example block-level help text here.</p>
+							    </div>
+							 </div>
 						   <div class="form-group">
 						      <label for="inputPassword" class="col-sm-2 form-label">所在地</label>
 						      <div class="col-sm-6">
-						         <input class="form-control" id="disabledInput" type="text" value="" name="area_id">
+						         <input class="form-control" id="disabledInput" type="text" value="">
 						      </div>
 						   </div>
 						   <div class="form-group">
 						      <label for="inputPassword" class="col-sm-2 form-label">详细地址</label>
 						      <div class="col-sm-6">
-						         <input class="form-control" id="disabledInput" type="text" value="" name="store_address">
+						         <input class="form-control" id="disabledInput" type="text" value="">
 						         <p class="help-block">重复地区可不填写.</p>
 						      </div>
 						   </div>
@@ -45,15 +48,7 @@
 						         联系电话
 						      </label>
 						      <div class="col-sm-6">
-						         <input type="text" class="form-control" id="inputSuccess" value="" name="store_tel">
-						      </div>
-						   </div>
-						   <div class="form-group">
-						      <label class="col-sm-2 form-label">
-						         邮政编码
-						      </label>
-						      <div class="col-sm-6">
-						         <input type="text" class="form-control" id="inputSuccess" value="" name="store_zip">
+						         <input type="text" class="form-control" id="inputSuccess" value="">
 						      </div>
 						   </div>
 						   <div class="form-group">
@@ -61,7 +56,7 @@
 						         QQ
 						      </label>
 						      <div class="col-sm-6">
-						         <input type="text" class="form-control" id="inputSuccess" value="" name="store_qq">
+						         <input type="text" class="form-control" id="inputSuccess" value="">
 						      </div>
 						   </div>
 						   <div class="form-group">
@@ -69,13 +64,13 @@
 						         店铺简介
 						      </label>
 						      <div class="col-sm-6">
-						         <textarea class="form-control" rows="3" name="description"></textarea>
+						         <textarea class="form-control" rows="3"></textarea>
 						      </div>
 						   </div>
 						   <div class="form-group">
 						      <label for="inputPassword" class="col-sm-2 form-label">SEO关键字</label>
 						      <div class="col-sm-6">
-						         <input class="form-control" id="disabledInput" type="text" value="" name="store_keywords">
+						         <input class="form-control" id="disabledInput" type="text" value="">
 						         <p class="help-block">用于店铺搜索引擎的优化，关键字之间请用英文逗号分隔.</p>
 						      </div>
 						   </div>
@@ -84,7 +79,7 @@
 						         SEO店铺描述
 						      </label>
 						      <div class="col-sm-6">
-						         <textarea class="form-control" rows="3" name="store_description"></textarea>
+						         <textarea class="form-control" rows="3"></textarea>
 						      </div>
 						   </div>
 						   <div class="form-group">

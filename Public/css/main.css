@@ -56,6 +56,7 @@ a {
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
     background-color: #d6d3ce;
 }
+
 /**首页列表**/
 .list {
 	margin-bottom: 20px;
@@ -417,3 +418,96 @@ a {
 	color: #777;
 	font-weight: lighter ;
 }
+.goods-img {
+	float:left;
+	margin:0px 4px 4px 0px;
+}
+.goods-img-upload {
+	float:left;
+	margin:0px 4px 4px 0px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	display: inline-block;
+	width: 140px; 
+	height: 140px;
+	line-height: 1.42857;
+	padding: 4px; 
+	transition: all 0.2s ease-in-out 0s;
+	text-align:center;
+}
+
+.content-album-del {
+    border-radius: 3px;
+    height: 23px;
+    padding: 0 5px;
+    position: absolute;
+    transition: top 300ms ease 0s;
+}
+
+/**用户中心-时间轴**/
+.breadcrumb-time {
+	border-radius: 4px;
+    list-style: outside none none;
+    margin-bottom: 20px;
+    padding: 8px 15px;
+}
+.breadcrumb-time > li {
+    display: inline-block;
+    padding:0px 8px 0px 0px;
+}
+/**
+.mod18Box > div,ul,li,i{margin:0;padding:0;-webkit-text-size-adjust: none;list-style-type:none}
+.mod18{ padding: 6px;margin: 0px auto; width: 420px; background: #FFF; box-shadow:0px 1px 5px #CCCCCC }
+.mod18 .btn{position:absolute;width:15px;height:70px;cursor:pointer;z-index:99;font-size:50px;font-weight:bold;top: 26px;}
+.mod18 .prev{left:16px;background:url(../images/prevBtn.png) no-repeat;}
+.mod18 .next{right:17px;background:url(../images/nextBtn.png) no-repeat;}
+.mod18 li{float:left;}
+.mod18 .cf { }
+.mod18 .cf li{position:relative;color:#fff;}
+.mod18 .listBox{ width: 389px; height: 130px; margin: 0 auto; position: relative;overflow: hidden;}
+.mod18 .listBox ul{position:absolute;}
+.mod18 .listBox li{width:129px;cursor:pointer;position:relative;padding:5px 0px;}
+.mod18 .listBox li i{display:none;}
+.mod18 .listBox li a{display:block;width:124px;}
+.mod18 .listBox li img{width:124px;}
+.mod18 .listBox .on img{width:118px;border:3px solid #ff6600;}
+.mod18 .listBox .on i{display:block;}
+**/
+.glyphicon-trash-left {
+	display: inline-block;
+	margin:8px 0px 0px 4px;
+	width: 0;
+	height: 0;
+	border-bottom: 10px solid transparent;
+	border-top: 10px solid transparent;
+	border-right: 15px solid #fff;
+	font-size: 0;
+	line-height: 0;
+	float:left
+}
+.ucenter-time-content {
+    background: none repeat scroll 0 0 #fff;
+    padding: 30px 0 70px 40px;
+    text-align: center;
+    width: 100%;
+}
+.ucenter-time-content > .row > .col-md-3 {
+	width:30%;
+}
+.time-item {
+	background: none repeat scroll 0 0 #fff;
+    box-shadow: 0 1px 5px #cccccc;
+    margin: 0 auto;
+    padding: 6px;
+    float:left;
+    margin:5px 8px;
+}
+.time-day {
+	float:left;
+	margin-left:20px;
+	font-size:24px;
+}
+
+
+

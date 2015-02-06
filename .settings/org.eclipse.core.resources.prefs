@@ -1,4 +1,4 @@
-#Wed Feb 04 11:24:22 CST 2015
+#Fri Feb 06 11:23:27 CST 2015
 eclipse.preferences.version=1
 encoding//Application/Home/View/goods/create.html=UTF-8
 encoding//Application/Layout/footer.html=UTF-8
@@ -9,5 +9,7 @@ encoding//Application/Shop/View/goods/create.html=UTF-8
 encoding//Application/Shop/View/goods/index.html=UTF-8
 encoding//Application/Shop/View/index/index.html=UTF-8
 encoding//Application/Shop/View/index/verified.html=UTF-8
+encoding//Application/Shop/View/record/add.html=UTF-8
+encoding//Application/Shop/View/record/index.html=UTF-8
 encoding/<project>=UTF-8
 encoding/Application=UTF-8

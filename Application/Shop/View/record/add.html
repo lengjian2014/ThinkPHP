@@ -1,37 +1,43 @@
 			<div class="container-fluid">
 				<ol class="breadcrumb" style="background-color: #fff;">
-				  <li><a href="#">个人中心</a></li>
-				  <li><a href="#">商品管理</a></li>
-				  <li class="active">商品列表-新增</li>
+				  <li><a href="#">我的农场</a></li>
+				  <li><a href="#">农场管理</a></li>
+				  <li class="active">新增记录</li>
 				</ol>
 					<div class="ucenter-content">
 							<form class="form-horizontal" role="form">
+							    <div class="form-group">
+							      <label class="col-md-2 control-label">记录类型</label>
+							      <div class="col-md-6">
+							         <select multiple class="form-control" name="category_id">
+									  <option>生长</option>
+									  <option>用药</option>
+									  <option>成熟</option>
+									  <option>出售</option>
+									</select>
+							      </div>
+							   </div>
 						   <div class="form-group">
-						      <label class="col-md-2 control-label">商品名称</label>
+						      <label class="col-md-2 control-label">发生时间</label>
 						      <div class="col-md-6">
-						      		<input class="form-control" id="disabledInput" type="text" value="" name="goods_name">
-						      </div>
-						   </div>
-						    <div class="form-group">
-						      <label class="col-md-2 control-label">所属分类</label>
-						      <div class="col-md-6">
-						         <select multiple class="form-control" name="category_id">
-								  <option>游戏</option>
-								  <option>小说</option>
-								  <option>自创</option>
-								  <option>其他</option>
+						      	<select class="form-control">
+									<option value="">2015年</option>
+									<option value="">2014年</option>
+									<option value="">2013年</option>
 								</select>
 						      </div>
 						   </div>
 						   <div class="form-group">
-						      <label class="col-md-2 control-label">商品简介</label>
+						      <label class="col-md-2 control-label">
+						         详细描述
+						      </label>
 						      <div class="col-md-6">
-						      	<textarea class="form-control" rows="3" name="goods_introduct"></textarea>
+						         <textarea class="form-control" rows="3" name="goods_detail"></textarea>
 						      </div>
 						   </div>
 						   <div class="form-group">
 						      <label class="col-md-2 control-label">
-						         图片
+						         图片/视频
 						      </label>
 						      <div class="col-md-7">
 						         <div class="bs-example bs-example-images" data-example-id="image-shapes" style="text-align:left;">
@@ -59,18 +65,10 @@
 						      </div>
 						   </div>
 						   <div class="form-group">
-						      <label class="col-md-2 control-label">
-						         详细描述
-						      </label>
-						      <div class="col-md-6">
-						         <textarea class="form-control" rows="3" name="goods_detail"></textarea>
-						      </div>
-						   </div>
-						   <div class="form-group">
 						      <label class="col-md-2 control-label" for="inputError">
 						      </label>
 						      <div class="col-md-6">
-						         <button type="submit" class="btn btn-primary">Submit</button>
+						         <button type="submit" class="btn btn-default">Submit</button>
 						      </div>
 						   </div>
 						</form>

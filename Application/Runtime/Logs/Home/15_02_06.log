@@ -1,0 +1,10 @@
+[ 2015-02-06T10:55:21+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000212s ]
+INFO: [ app_init ] --END-- [ RunTime:0.034018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015070s ]
+SQL: SHOW COLUMNS FROM `nc_goods` [ RunTime:0.1970s ]
+SQL: SELECT * FROM `nc_goods` WHERE `goods_id` = 14 LIMIT 1   [ RunTime:0.0177s ]
+
