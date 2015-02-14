@@ -8,3 +8,23 @@ INFO: [ app_begin ] --END-- [ RunTime:0.015070s ]
 SQL: SHOW COLUMNS FROM `nc_goods` [ RunTime:0.1970s ]
 SQL: SELECT * FROM `nc_goods` WHERE `goods_id` = 14 LIMIT 1   [ RunTime:0.0177s ]
 
+[ 2015-02-06T14:47:11+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `nc_goods` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `nc_goods` WHERE `goods_id` = 14 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-02-06T14:47:28+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `nc_goods` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `nc_goods` WHERE `goods_id` = 14 LIMIT 1   [ RunTime:0.0005s ]
+

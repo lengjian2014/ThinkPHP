@@ -1,7 +1,7 @@
 <?php
 namespace Index\Controller;
 use Think\Controller;
-class IndexController extends Controller 
+class SearchController extends Controller 
 {
     public function index()
     {

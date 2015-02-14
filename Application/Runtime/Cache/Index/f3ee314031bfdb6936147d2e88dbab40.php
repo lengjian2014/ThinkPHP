@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
-    <title>草垛子-登录</title>
+    <title>草垛子-注册</title>
     <!-- Bootstrap core CSS -->
     <link href="/Public/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
@@ -19,7 +19,7 @@
     <![endif]-->
   </head>
   <body style="background:#FFF url(/Public/images/53954846d4ee5.jpg) no-repeat fixed center;background-position:-350px -220px;;">
-	     <nav  class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+         <nav  class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container" style="padding-left: 15px;">
         <div class="navbar-header">
            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -49,30 +49,37 @@
       <div class="col-md-9 login">
       	 <div class="form-signin" style="float:right;">
 		      <form class="form-horizontal" style="height:250px;width:320px;">
-		        <h3 class="form-signin-heading" style="font-size:14px;color:#848484; margin-bottom: 15px;margin-top: 13px;">有账号？那就登录吧</h3>
+		        <h3 class="form-signin-heading" style="font-size:14px;color:#848484; margin-bottom: 15px;margin-top: 13px;">没有账号？那就注册吧</h3>
 		        <p style="display:none;font-size:12px;color:red;text-align:center;">账号密码错误</p>
 		         <div class="form-group">
 		         	<div class="col-md-12">
-				    	<input type="email" id="inputEmail" class="form-control" placeholder="用户名、邮箱" required autofocus>
+				    	<input type="email" id="inputEmail" class="form-control" placeholder="用户名" required autofocus>
 				    </div>
 				  </div>
-		        <div class="form-group" style="margin-bottom:0px;">
+				  <div class="form-group">
+		         	<div class="col-md-12">
+				    	<input type="email" id="inputEmail" class="form-control" placeholder="邮箱" required autofocus>
+				    </div>
+				  </div>
+		        <div class="form-group">
 		        	<div class="col-md-12">
 			    		<input type="password" id="inputPassword" class="form-control" placeholder="密码" required>
 			    	</div>
 			  	</div>
-			  	<a class="btn btn-link" style="color: #848484;font-size: 12px;" href="/index.php?s=/home/user/mi.html">忘记密码？</a>
+			  	<div class="form-group" style="margin-bottom:0px;">
+		        	<div class="col-md-12">
+			    		<input type="password" id="inputPassword" class="form-control" placeholder="验证密码" required>
+			    	</div>
+			  	</div>
+			  	<a class="btn btn-link" style="color: #848484;font-size: 12px;" href="/index.php?s=/home/user/mi.html"></a>
 		        <div class="form-group" style="padding:0px 15px;">
-			        <div style="float:left;padding:9px 0px 0px 0px;">
-			          <input type="checkbox" value="remember-me"> <span style="font-size:12px;color:#848484;">记住一周</span>
-			         </div>
 			        <div style="float:right;">
-			        	<button class="btn btn-primary btn-default btn-sm" type="submit">登&nbsp;&nbsp;&nbsp;录</button>
+			        	<button class="btn btn-primary btn-default btn-sm" type="submit">注&nbsp;&nbsp;&nbsp;册</button>
 			        </div>
 		        </div>
 		        <div class="form-group" style="padding:10px 15px 0px 15px;margin-bottom:0px;">
 			        <div style="float:left;padding:5px 0px;">
-						<p style="font-size:13px;color:#848484;">没有账号？<a>注册</a> 一个</p>
+						<p style="font-size:13px;color:#848484;">有账号？<a>去登录</a></p>
 			         </div>
 			         <div style="float:right;">
 			         	<div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a title="分享到QQ空间" href="#" class="bds_qzone" data-cmd="qzone"></a><a title="分享到新浪微博" href="#" class="bds_tsina" data-cmd="tsina"></a><a title="分享到腾讯微博" href="#" class="bds_tqq" data-cmd="tqq"></a><a title="分享到人人网" href="#" class="bds_renren" data-cmd="renren"></a><a title="分享到微信" href="#" class="bds_weixin" data-cmd="weixin"></a></div>
@@ -84,7 +91,7 @@
 	      </div>
 	     </div>
 
-	     <footer class="" role="contentinfo" style="text-align: center;margin-top: 315px;">
+	     <footer class="" role="contentinfo" style="text-align: center;margin-top: 245px;">
 		  <div class="container">
 		    <p>Designed and built with all the love in the world by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.</p>
 		    <p>Maintained by the <a href="https://github.com/twbs?tab=members">core team</a> with the help of <a href="https://github.com/twbs/bootstrap/graphs/contributors">our contributors</a>.</p>

@@ -11,5 +11,5 @@ return array(
     ),
 
 	'LAYOUT_ON'=>true, //模板布局
-    'LAYOUT_NAME'=>'../../Layout/layout',
+    'LAYOUT_NAME'=>'layout',
 );

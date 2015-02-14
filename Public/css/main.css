@@ -56,6 +56,26 @@ a {
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
     background-color: #d6d3ce;
 }
+/**登录 注册**/
+.login {
+    margin-left: 11.5%;
+    margin-top: 18%;
+    filter:alpha(opacity=90);
+    -moz-opacity:0.9;
+    opacity:0.9;
+}
+.form-signin {
+  background: none repeat scroll 0 0 #fff;
+  box-shadow: 0 1px 5px #cccccc;
+  border: 0px 1px 1px 0px solid #eee;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 60px rgba(0, 0, 0, 0.06) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset; 
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+  position: relative;
+  *zoom: 1;
+  float:right;
+  padding:5px 20px 0px 20px;
+}
 
 /**首页列表**/
 .list {
